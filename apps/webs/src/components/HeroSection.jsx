@@ -11,8 +11,7 @@ const HeroSection = () => {
               See what you can achieve!
             </h2>
             <p className=" font-custom text-[24px] leading-[24x]  text-white">
-              Task management, time tracking and billing for freelancers,
-              consultants and teams.
+              Free pyqs, pdf
             </p>
             <div className=" mt-[64px]">
               <button
