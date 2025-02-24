@@ -6,13 +6,12 @@ const page = () => {
       <Nav />
       <div className=" grid grid-cols-2 items-center justify-between w-[1400px] mx-auto mt-[64px]">
         <div className="">ai</div>
-        <div className=" p-2 ">
-          <embed
-            src="/pdfs/CSC-301_DSA.pdf"
-            width="100%"
+        <div className=" p-2   w-full h-screen">
+          <iframe
+            src="apps/webs/public/pdfs/CSC-301_DSA.pdf"
+            width="90%"
             height="600px"
-            type="application/pdf"
-          ></embed>
+          ></iframe>
         </div>
       </div>
     </section>
